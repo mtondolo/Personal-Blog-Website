@@ -1,0 +1,31 @@
+.container{
+    display: grid;
+    grid-template-columns: 900px;
+    grid-template-rows: 150px 150px 150px 150px;
+    grid-template-areas: 
+    "hd hd hd hd hd hd hd hd"
+    "bio bio bio bio bio bio bio bio"
+    "hob hob hob hob hob hob hob hob"
+    "ft ft ft ft ft ft ft ft";
+    border: 2px solid blue;
+}
+
+.header{
+    grid-area: hd;
+}
+
+.biography{
+    grid-area: bio;
+}
+
+.hobbies{
+    grid-area: hob;
+}
+
+.footer{
+    grid-area: ft;
+}
+
+.box{
+    border: 2px solid red;
+}
