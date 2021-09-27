@@ -1,0 +1,26 @@
+.container{
+    display: grid;
+    grid-template-columns: 900px;
+    grid-template-rows: 150px 300px 200px;
+    grid-template-areas: 
+    "hd hd hd hd hd hd hd hd" 
+    "bio bio bio bio bio bio bio bio"
+    "soc soc soc soc soc soc soc soc";
+    border: 2px solid blue;
+}
+
+.header{
+    grid-area: hd;
+}
+
+.biography{
+    grid-area: bio;
+}
+
+.social{
+    grid-area: soc;
+}
+
+.box{
+    border: 2px solid red;
+}
