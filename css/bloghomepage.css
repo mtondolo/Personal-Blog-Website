@@ -1,31 +1,40 @@
 .container{
     display: grid;
-    grid-template-columns: 900px;
+    grid-template-columns: 300px;
     grid-template-rows: 150px 150px 150px 150px;
     grid-template-areas: 
     "hd hd hd hd hd hd hd hd"
-    "bio bio bio bio bio bio bio bio"
-    "hob hob hob hob hob hob hob hob"
+    "bio bio bio bio hob hob hob hob"
+    "bio bio bio bio hob hob hob hob"
+    "edu edu edu edu bus bus bus bus"
+    "edu edu edu edu bus bus bus bus"
     "ft ft ft ft ft ft ft ft";
     border: 2px solid blue;
+    align-items: center;
+    justify-content: center;
 }
-
 .header{
     grid-area: hd;
+    text-align: center;
 }
-
 .biography{
     grid-area: bio;
 }
-
 .hobbies{
-    grid-area: hob;
+    grid-area: hob;   
 }
-
+.education{
+    grid-area: edu;
+}
+.business{
+    grid-area: bus;
+}
 .footer{
     grid-area: ft;
+    text-align: center
 }
-
 .box{
-    border: 2px solid red;
+    border: 2px solid blue;
+    border-radius: 5px;
+    margin: auto;
 }
