@@ -4,10 +4,10 @@
     grid-template-rows: 150px 150px 150px 150px;
     grid-template-areas: 
     "hd hd hd hd hd hd hd hd"
-    "bio bio bio bio hob hob hob hob"
-    "bio bio bio bio hob hob hob hob"
-    "edu edu edu edu bus bus bus bus"
-    "edu edu edu edu bus bus bus bus"
+    "bio bio bio bio bio bio bio bio"
+    "hob hob hob hob hob hob hob hob"
+    "edu edu edu edu edu edu edu edu"
+    "bus bus bus bus bus bus bus bus"
     "ft ft ft ft ft ft ft ft";
     border: 2px solid blue;
     align-items: center;
@@ -38,3 +38,22 @@
     border-radius: 5px;
     margin: auto;
 }
+
+@media(min-width:900px){
+    .container{
+        display: grid;
+        grid-template-columns: 300px;
+        grid-template-rows: 150px 150px 150px 150px;
+        grid-template-areas: 
+        "hd hd hd hd hd hd hd hd"
+        "bio bio bio bio hob hob hob hob"
+        "bio bio bio bio hob hob hob hob"
+        "edu edu edu edu bus bus bus bus"
+        "edu edu edu edu bus bus bus bus"
+        "ft ft ft ft ft ft ft ft";
+        border: 2px solid blue;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
