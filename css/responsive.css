@@ -1,3 +1,4 @@
+/* Display for large screens*/
 @media(min-width:900px){
     .container{
         display: grid;
