@@ -5,7 +5,8 @@
     grid-template-areas: 
     "hd hd hd hd hd hd hd hd" 
     "bio bio bio bio bio bio bio bio"
-    "soc soc soc soc soc soc soc soc";
+    "soc soc soc soc soc soc soc soc"
+    "ft ft ft ft ft ft ft ft";
     border: 2px solid blue;
     justify-content: center;
     align-items: center;
@@ -22,6 +23,11 @@
 
 .social{
     grid-area: soc;
+    text-align: center;
+}
+
+.footer{
+    grid-area: ft;
     text-align: center;
 }
 
