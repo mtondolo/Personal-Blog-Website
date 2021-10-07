@@ -40,6 +40,10 @@ img{
     color: #fff;
     padding: .5rem;
 }
+figcaption{
+    font-size: small;
+    font-stretch: condensed;
+}
 
 
 
