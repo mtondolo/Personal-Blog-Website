@@ -1,39 +1,49 @@
-.container{
+body{
+    background-color: #fff;
+    color: #333;
+    font: 1.2em / 1.5 Helvetica Neue, Helvetica, Arial, sans-serif;
+    padding: 0;
+    margin: 0; 
+}
+
+img{
+    max-width: 100%;
+}
+
+.cards{
     display: grid;
-    grid-template-columns: 300px;
-    grid-template-rows: 150px 300px 200px;
-    grid-template-areas: 
-    "hd hd hd hd hd hd hd hd" 
-    "bio bio bio bio bio bio bio bio"
-    "soc soc soc soc soc soc soc soc"
-    "ft ft ft ft ft ft ft ft";
-    border: 2px solid blue;
-    justify-content: center;
+            grid-template-columns: auto-fill, minmax(230px, 1fr);
+            grid-gap: 20px;
+            max-width: 800px;
+            margin: 1em auto;
+}
+
+.card{
+    display: grid;
+            grid-template-rows: max-content 200px 1fr;
+            border: 1px solid #999;
+            border-radius: 3px;
+}
+
+.card img{
+    object-fit: cover;
+            width: 100%;
+            height: 100%;
+}
+
+.card h1{
+    margin: 0;
+            padding: .5rem;
+}
+
+.card .content{
+    padding: .5rem;
+}
+.cards button {
+    background-color: #333;
+    color: #fff;
+    padding: .5rem;
     align-items: center;
+    justify-content: center;
 }
 
-.header{
-    grid-area: hd;
-    text-align: center;
-}
-
-.biography{
-    grid-area: bio;
-}
-
-.social{
-    grid-area: soc;
-    text-align: center;
-}
-
-.footer{
-    grid-area: ft;
-    text-align: center;
-}
-
-.box{
-    border: 2px solid red;
-    border-radius: 5px;
-    margin: auto;
-    background-color: honeydew;
-}
