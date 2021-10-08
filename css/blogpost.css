@@ -39,12 +39,6 @@ img{
 .card .content{
     padding: .5rem;
 }
-.cards button {
-    background-color: #333;
-    color: #fff;
-    padding: .5rem;
-    border-radius: 3px;
-}
 figcaption{
     font-size: small;
     font-stretch: condensed;
@@ -53,5 +47,13 @@ blockquote{
     padding: 15px;
     background: #eee;
     border-radius: 5px;
+}
+a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color:#697681;
 }
 
