@@ -35,14 +35,24 @@ img{
 .card .content{
     padding: .5rem;
 }
-.card footer {
-    background-color: #333;
-    color: #fff;
-    padding: .5rem;
-}
 figcaption{
     font-size: small;
     font-stretch: condensed;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    color:#697681;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color:#697681;
 }
 
 
