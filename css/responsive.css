@@ -1,10 +1,25 @@
-/* Display for large screens*/
-@media(min-width:900px){
-    .cards{
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
-                grid-gap: 20px;
-                max-width: 800px;
-                margin: 1em auto;
-    }
+/* Anything smaller than first breakpoint 600px */
+@media (max-width: 600px){
+    .cards {
+        /*rules for small screen*/
+        background-color:green;
+      }
 }
+  /* Medium Screens */
+  @media (min-width: 601px) and (max-width:900px) {
+    .cards {
+      /*rules for medium-sized screen*/
+      background-color:blue;
+      display: flex;
+            grid-template-rows: max-content 200px 1fr;
+            border: 1px solid #999;
+            border-radius: 3px;
+    }
+  }
+  /* Large Screens */
+  @media (min-width:901px) {
+    .cards {
+      /*rules for large screen*/
+      background-color: red;
+    }
+  }
