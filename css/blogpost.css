@@ -9,25 +9,25 @@ body{
 img{
     max-width: 100%;
 }
-.card{
+.item{
     display: grid;
             grid-template-rows: max-content 200px 1fr;
             border: 1px solid #999;
             border-radius: 3px;
 }
 
-.card img{
+.item img{
     object-fit: cover;
             width: 100%;
             height: 100%;
 }
 
-.card h1{
+.item h1{
     margin: 0;
             padding: .5rem;
 }
 
-.card .content{
+.item .content{
     padding: .5rem;
 }
 figcaption{
