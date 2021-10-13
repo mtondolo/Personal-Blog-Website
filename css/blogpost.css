@@ -52,6 +52,7 @@ a{
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    gap: 45px;
 }
 .media{
     width: 50px;
