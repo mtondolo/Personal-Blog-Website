@@ -1,6 +1,7 @@
 @import 'blogpost.css';
 @import 'responsive_index.css';
 @import 'responsive_blog.css';
+@import 'media.css';
 body{
    /* background-color: #fff;*/
     color: #333;
